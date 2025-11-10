@@ -1,1 +1,4 @@
-python/__pycache__
+cookies/
+.env
+*.txt
+har_and_cookies/
