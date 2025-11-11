@@ -2,3 +2,5 @@ cookies/
 .env
 *.txt
 har_and_cookies/
+lua/GPTCodeNvim/python/llama.cpp/
+lua/GPTCodeNvim/python/.ipynb_checkpoints/

@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/silletr/Projects/GPTCodeNvim/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+CommitGen	commit_generation.py	/^class CommitGen:$/;"	c
+M.run	lua/GPTCodeNvim/commands/general.lua	/^function M.run(first, ...)$/;"	f
+M.setup	lua/GPTCodeNvim/init.lua	/^function M.setup() end$/;"	f
+__init__	commit_generation.py	/^    def __init__(self) -> None:$/;"	m	class:CommitGen	typeref:typename:None
+get_category	commit_generation.py	/^    def get_category(self) -> list[str]:$/;"	m	class:CommitGen	typeref:typename:list[str]
+get_changed_files	commit_generation.py	/^    def get_changed_files() -> List[str]:$/;"	m	class:CommitGen	typeref:typename:List[str]
+get_description	commit_generation.py	/^    def get_description() -> str:$/;"	m	class:CommitGen	typeref:typename:str
+main	lua/GPTCodeNvim/python/main.py	/^def main():$/;"	f
+on_exit	lua/GPTCodeNvim/commands/general.lua	/^		on_exit = vim.schedule_wrap(function(_, code, _)$/;"	f
+on_stderr	lua/GPTCodeNvim/commands/general.lua	/^		on_stderr = vim.schedule_wrap(function(_, data)$/;"	f
+on_stdout	lua/GPTCodeNvim/commands/general.lua	/^		on_stdout = vim.schedule_wrap(function(_, data)$/;"	f
+run	commit_generation.py	/^    def run(self) -> None:$/;"	m	class:CommitGen	typeref:typename:None
+script_path	lua/GPTCodeNvim/commands/general.lua	/^local function script_path()$/;"	f
+set_g4f_cookies	lua/GPTCodeNvim/python/main.py	/^def set_g4f_cookies():$/;"	f
+show_git_changes	commit_generation.py	/^    def show_git_changes(self) -> None:$/;"	m	class:CommitGen	typeref:typename:None
